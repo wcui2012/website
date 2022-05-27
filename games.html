@@ -17,8 +17,6 @@
   <link rel="stylesheet" href="css/home.css">
 
   <title>智趣时代 - 棋牌游戏</title>
-  <!--[if lt IE 9]>
-  <![endif]-->
 </head>
 
 <body>
@@ -34,11 +32,6 @@
         <a class="navbar-brand" href="/">
           <div class="logo">
           </div>
-        </a>
-      </div>
-      <div class="sm-sub-btn">
-        <a class="submit-btn open-modal" href="javascript:;">
-         提交需求
         </a>
       </div>
       <nav class="navbar-collapse bs-navbar-collapse collapse" role="navigation" aria-expanded="false" style="height: 1px;">
@@ -206,107 +199,6 @@
       </div>
     </div>
   </div>
-
-  <!-- modal -->
-  <div class="modal">
-    <div class="modal-blur"></div>
-    <div class="modal-content">
-      <a href="javascript:;" class="close-modal" style="top: 20px; ">&times;</a>
-      <div class="modal-form">
-        <h3 class="gear-h3">马上填写需求，获得产品咨询和项目报价</h3>
-        <div class="modal-server-step">
-          <div class="server-step-item">
-            <img src="img/modal-step-01@2x.png" alt="">
-            <p>
-              <span class="hidden-xs">填写项目需求</span>
-              <span class="visible-xs-inline">填写需求</span>
-            </p>
-          </div>
-          <div class="server-step-item">
-            <img src="img/modal-step-02@2x.png" alt="">
-            <p>
-              <span class="hidden-xs">进行产品咨询</span> 
-              <span class="visible-xs-inline">产品咨询</span>
-            </p>
-          </div>
-          <div class="server-step-item">
-            <img src="img/modal-step-03@2x.png" alt="">
-            <p>
-              <span class="hidden-xs">反馈报告和报价</span> 
-              <span class="visible-xs-inline">报价反馈</span>
-            </p>
-          </div>
-          <div class="modal-line"></div>
-          <span class="modal-text-1">24h<span class="hidden-xs">内回复</span></span>
-          <span class="modal-text-2">24h<span class="hidden-xs">内回复</span></span>
-        </div>
-        <div class="modal-line hidden-xs"></div>
-        <form action="/submit/proposal" class="form-horizontal" method="post" id="proposal-form">
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="modalName">姓名</label>
-            <div class="col-sm-10">
-              <input type="text" name="name" required="required" class="form-control" id="modalName">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="modalPhone">电话</label>
-            <div class="col-sm-10">
-              <input type="phone" name="phone" required="required" class="form-control" id="modalPhone">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="modalQQ">QQ/微信</label>
-            <div class="col-sm-10">
-              <input type="text" name="wechat" required="required" class="form-control" id="modalQQ">
-            </div>
-          </div>
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="modalNeeds">需求描述</label>
-            <div class="col-sm-10">
-              <textarea id="modalNeeds" required="required" name="description" rows="5" class="form-control" placeholder="示例：我想做一款App，iOS 和Android两个平台，现有产品需求文档，无设计，有参考 App 如网易一元购，功能与其一样即可。"></textarea>
-            </div>
-          </div>
-          <div class="form-item text-center">
-            <a href="javascript:;" class="submit-btn submit-proposal">完成提交
-            </a>
-          </div>
-        </form>
-      </div>
-      <div class="modal-result text-center">
-        <div class="result-loading">
-          <div class="loading-container hidden-xs">
-            <img src="img/loading-logo@2x.png" alt="">
-             <p>页面正在加载请稍等...</p>
-          </div>
-          <div class="loading-container-ph visible-xs-block">
-            <img src="img/loading-ph@2x.png" alt="">
-            <p>
-              <img src="img/loading-circle-ph@2x.png" alt="">
-              页面正在加载，请稍等...
-            </p>
-          </div>
-        </div>
-
-        <div class="result-succ-show hidden">
-          <div class="result-icon result-success"></div>
-          <h2>提交成功</h2>
-          <p>
-            恭喜您已经成功提交需求，我们会在一个工作日内
-            <br/> 与您进行初次沟通，请耐心等待
-          </p>
-        </div>
-
-        <!--提交失败内容-->
-        <div class="result-err-show hidden">
-          <div class="result-icon result-error"></div>
-          <h2>提交失败</h2>
-          <p>
-            请联系客服人员或拨打电话 181-0134-8332
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
   
   <br/><br/><br/><br/>
   <footer>  
@@ -321,7 +213,6 @@
             <li><a href="/index.html">首页</a></li>
             <li><a href="/cases.html">案例</a></li>
             <li><a href="/games.html">棋牌</a></li>
-            <li> <a class="submit-btn open-modal" href="javascript:;">提交需求</a></li>
           </ul>
         </div>
         <div class="col-md-2 col-sm-12 visible-md-block visible-lg-block">
@@ -339,7 +230,7 @@
             联系我们
           </div>
           <ul class="footer_list">
-            <li>电话：181-0134-8332</li>
+            <li>电话：177-100-56213</li>
             <li>邮箱：sales@zhiqu-times.com</li>
             <li>地址：北京市昌平区清秀尚城汇A座</li>
           </ul>
@@ -356,14 +247,5 @@
       <p>© 2017 北京智趣时代科技有限公司 版权所有</p>
     </div>
   </footer>
-  
-  
-  <script src="//cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
-  <script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="//cdn.bootcss.com/jquery.form/3.51/jquery.form.min.js"></script>
-  <script src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-
-  <script type="text/javascript" src="js/app.js"></script>
-  <script type="text/javascript" src="js/cases.js"></script>
 </body>
 </html>
